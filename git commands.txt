@@ -1,0 +1,19 @@
+step 1: Create Repository from github
+step 2: Create a folder with the same name as Repository and Open it in Visual Studio
+step 3: New Terminal --> change it to Gitbash
+step 4: Enter below commands
+
+## create a new repository on the command line
+echo "# assignment-3" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nayemurshuvo/assignment-3.git
+git push -u origin main
+
+
+## or push an existing repository from the command line
+git remote add origin https://github.com/nayemurshuvo/assignment-3.git
+git branch -M main
+git push -u origin main
